@@ -1,0 +1,71 @@
+body{
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	background-color: #F8FAF5;
+}
+
+#container{
+	width: 900px;
+	margin: auto;
+}
+#header{
+	width: 100%;
+	height:100px;
+}
+#left{
+	border-top: solid 1px;
+	border-right: solid 1px;
+	border-color: #A9E5A9;
+	width: 14%;
+	height:1000px;
+	float: left;
+}
+
+#main{
+	border-top:solid 1px;
+	border-color: #A9E5A9;
+	width: 74%;
+	float: left;
+}
+/*文字区域*/
+#mainPage{
+	float: left;
+	font-size: 30px;
+}
+.passage{
+	margin-left: 25%; 
+}
+#headerLeft{
+	margin-left: 200px;
+	padding-top: 20px;
+	color:#A9E5A9;
+	font-size: 30px;
+}
+/*图片*/
+#ogami{
+	height: 480px;
+	float: right;
+}
+/*隐藏*/
+#caiyi{
+	display: none;
+}
+#ezhihua{
+	display: none;
+}
+#left button{
+	background-color: #F8FAF5; 
+    border: none;
+    color: black;
+    margin: 15px 0px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+}
+#left button:hover{
+	background-color:yellow;
+	transition:background-color 1.5s linear;
+	border-radius: 10px;
+}
